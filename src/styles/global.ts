@@ -4,7 +4,7 @@ import { reset } from "./reset";
 
 import { colors } from "./color";
 
-export const GlobalStyle = createGlobalStyle`
+export const GlobalStyle = createGlobalStyle<{ isOpen: boolean }>`
 ${reset}
 
 @font-face {
@@ -29,6 +29,8 @@ html {
 
 body {
     background-color: ${colors.background};
+    background-color: ${colors.background};
+    overflow: ${({ isOpen }) => (isOpen ? "hidden" : "auto")};
 }
 
 
