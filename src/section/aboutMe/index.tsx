@@ -19,7 +19,6 @@ export const AboutMeSection: React.FC = () => {
           <AboutMeText />
         </S.TextContent>
       </S.ContentWrapper>
-
       <AnimatedArrow />
     </S.SectionWrapper>
   );

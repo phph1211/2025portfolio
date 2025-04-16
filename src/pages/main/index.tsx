@@ -2,7 +2,7 @@ import React from "react";
 
 import { Header } from "../../components";
 
-import { AboutMeSection, SkillsSection } from "../../section";
+import { AboutMeSection, SkillsSection, MyWorkSection } from "../../section";
 
 export const MainPage: React.FC = () => {
   return (
@@ -10,6 +10,7 @@ export const MainPage: React.FC = () => {
       <Header />
       <AboutMeSection />
       <SkillsSection />
+      <MyWorkSection />
     </>
   );
 };
