@@ -19,7 +19,6 @@ export const SkillBox: React.FC<SkillBoxProps> = ({
         <S.SkillNameText>{skillName}</S.SkillNameText>
         <S.skillDescriptionText>{description}</S.skillDescriptionText>
       </S.TextBox>
-
       <S.SkillImg src={skillImg} alt="스킬 이미지" />
     </S.SkillBoxWrapper>
   );

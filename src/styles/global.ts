@@ -62,11 +62,11 @@ html,body{
 };
 
 @media screen and (max-width: 1500px) and (min-width: 1000px) {
-    font-size: 16px;
+    font-size: 15px;
 };
 
 @media screen and (max-width: 1000px) and (min-width: 700px) {
-    font-size: 14px;
+    font-size: 13px;
 };
 
 @media screen and (max-width: 700px) and (min-width: 500px) {

@@ -7,13 +7,22 @@ export const SectionWrapper = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem 4rem;
+  padding: 2rem 5rem;
 `;
 
 export const SkillBoxContainer = styled.div`
-  width: 100%;
+  width: 90%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
-  row-gap: 20px;
+  gap: 5rem;
+  margin-top: 5rem;
+
+  @media (max-width: 900px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr;
+  }
 `;

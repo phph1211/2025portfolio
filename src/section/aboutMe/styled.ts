@@ -19,5 +19,6 @@ export const ContentWrapper = styled.div`
 export const TextContent = styled.div`
   display: flex;
   flex-direction: column;
+  column-gap: 30px;
   gap: 30px;
 `;

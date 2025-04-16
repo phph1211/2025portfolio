@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const SkillBoxWrapper = styled.div`
-  width: 320px;
+  width: 100%;
+  max-width: 320px;
   height: 150px;
   border-radius: 12px;
   background-color: white;
@@ -20,16 +21,17 @@ export const SkillBoxWrapper = styled.div`
 `;
 
 export const TextBox = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+  height: 100%;
 `;
 
 export const SkillNameText = styled.p`
-  font-size: 1.2rem;
+  font-size: 1rem;
 `;
 
-export const skillDescriptionText = styled.p``;
+export const skillDescriptionText = styled.p`
+  font-size: 0.8rem;
+  margin-top: 10px;
+`;
 
 export const SkillImg = styled.img`
   width: 3rem;
