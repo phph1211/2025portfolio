@@ -2,6 +2,8 @@ import { createGlobalStyle } from "styled-components";
 
 import { reset } from "./reset";
 
+import { colors } from "./color";
+
 export const GlobalStyle = createGlobalStyle`
 ${reset}
 
@@ -23,6 +25,10 @@ html {
   font-size: 10px;
   width: 100vw;
   scroll-behavior: smooth;
+}
+
+body {
+    background-color: ${colors.background};
 }
 
 

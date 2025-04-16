@@ -8,6 +8,7 @@ export const HeaderWrapper = styled.header`
   align-items: center;
   position: fixed;
   padding: 40px;
+  backdrop-filter: blur(2px);
 `;
 
 export const Logo = styled.div`
