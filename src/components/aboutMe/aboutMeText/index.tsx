@@ -1,8 +1,8 @@
 import React from "react";
 
-import { useTypingEffect } from "../../hooks/useTypingEffect";
+import { useTypingEffect } from "../../../hooks/useTypingEffect";
 
-import { AboutMeTextItem } from "../../constant";
+import { AboutMeTextItem } from "../../../constant";
 
 import * as S from "./styled";
 
@@ -14,6 +14,7 @@ export const AboutMeText: React.FC = () => {
 
   return (
     <S.TextWrapper>
+      <S.GreetingText>{AboutMeTextItem.greeting}</S.GreetingText>
       <S.AboutText>
         {separateText.map((item, index) => {
           return <S.AboutText key={index}>{item}</S.AboutText>;

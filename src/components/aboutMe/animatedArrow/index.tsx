@@ -10,7 +10,7 @@ export const AnimatedArrow: React.FC = () => {
       animate={{ y: [0, 10, 0] }}
       transition={{ repeat: Infinity, duration: 1, ease: "easeInOut" }}
     >
-      <LuArrowDownFromLine />
+      <LuArrowDownFromLine size={"100%"} />
     </S.ArrowWrapper>
   );
 };
