@@ -12,16 +12,18 @@ export const SkillsSection: React.FC = () => {
   return (
     <S.SectionWrapper>
       <SectionTitle text="What can you do ?" />
-      {skillItem.skillName.map((item, index) => {
-        return (
-          <SkillBox
-            key={index}
-            description={skillItem.skillDescription[index]}
-            skillName={item}
-            skillImg={skillItem.imgPath[index]}
-          />
-        );
-      })}
+      <S.SkillBoxContainer>
+        {skillItem.skillName.map((item, index) => {
+          return (
+            <SkillBox
+              key={index}
+              description={skillItem.skillDescription[index]}
+              skillName={item}
+              skillImg={`./src/assets/images/devLangs/${skillItem.imgPath[index]}.png`}
+            />
+          );
+        })}
+      </S.SkillBoxContainer>
     </S.SectionWrapper>
   );
 };

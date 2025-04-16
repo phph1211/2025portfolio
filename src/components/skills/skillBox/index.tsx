@@ -15,9 +15,12 @@ export const SkillBox: React.FC<SkillBoxProps> = ({
 }) => {
   return (
     <S.SkillBoxWrapper>
-      {skillName}
-      {description}
-      {skillImg}
+      <S.TextBox>
+        <S.SkillNameText>{skillName}</S.SkillNameText>
+        <S.skillDescriptionText>{description}</S.skillDescriptionText>
+      </S.TextBox>
+
+      <S.SkillImg src={skillImg} alt="스킬 이미지" />
     </S.SkillBoxWrapper>
   );
 };

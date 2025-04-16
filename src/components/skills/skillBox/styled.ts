@@ -11,11 +11,26 @@ export const SkillBoxWrapper = styled.div`
   justify-content: center;
   align-items: center;
   gap: 10px;
-  transform: translateY(30px);
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  transition: opacity 0.6s ease-out, transform 0.2s ease-out;
   box-shadow: rgba(0, 0, 0, 0.1) 10px 10px 30px;
 
   &:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
+`;
+
+export const TextBox = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+`;
+
+export const SkillNameText = styled.p`
+  font-size: 1.2rem;
+`;
+
+export const skillDescriptionText = styled.p``;
+
+export const SkillImg = styled.img`
+  width: 3rem;
 `;
