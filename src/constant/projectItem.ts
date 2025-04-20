@@ -78,7 +78,13 @@ export const projectItems = [
     descriptionDetail:
       "시스템보안연구부를 소개하고, 2024년도 신규 부원을 모집하기 위한 웹사이트입니다.",
     techStack: ["React.js", "TypeScript", "styled-components", "Recoil", "..."],
-    projectImgs: ["ssr1", "ssr2", "ssr3", "ssr4"],
+    projectImgs: [
+      "portfolio1",
+      "portfolio2",
+      "portfolio13",
+      "portfolio4",
+      "portfolio5",
+    ],
     contribution: [
       "전체 페이지를 구성하고 디자인했습니다.",
       "미디어 쿼리를 사용하여 반응형 디자인을 구현했습니다.",
