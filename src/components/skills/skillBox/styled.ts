@@ -22,6 +22,10 @@ export const SkillBoxWrapper = styled.div`
 
 export const TextBox = styled.div`
   height: 100%;
+
+  @media screen and (max-width: 480px) {
+    height: auto;
+  }
 `;
 
 export const SkillNameText = styled.p`
