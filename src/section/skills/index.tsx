@@ -10,7 +10,7 @@ import { skillItem } from "../../constant";
 
 export const SkillsSection: React.FC = () => {
   return (
-    <S.SectionWrapper>
+    <S.SectionWrapper id="skills">
       <SectionTitle text="What can you do ?" />
       <S.SkillBoxContainer>
         {skillItem.skillName.map((item, index) => {

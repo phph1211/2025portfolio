@@ -7,7 +7,7 @@ import {
   ModalBackground,
 } from "../../components";
 
-import { projectItmes } from "../../constant";
+import { projectItems } from "../../constant";
 
 import { useRecoilState } from "recoil";
 
@@ -19,14 +19,14 @@ export const MyWorkSection: React.FC = () => {
   const [isOpen] = useRecoilState(isModalOpenState);
   const [selectedIndex, setSelectedIndex] = useState<number>(0);
 
-  const selectedProject = projectItmes[selectedIndex];
+  const selectedProject = projectItems[selectedIndex];
 
   return (
     <>
-      <S.MyWorkSectionLayout id="my work">
+      <S.MyWorkSectionLayout id="mywork">
         <SectionTitle text="My Works" />
         <S.MyWorkContainer>
-          {projectItmes.map((item, index) => {
+          {projectItems.map((item, index) => {
             return (
               <MyWorkBox
                 key={index}

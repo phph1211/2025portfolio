@@ -26,6 +26,10 @@ export const ContentWrapper = styled.div`
     flex-direction: column;
     gap: 3rem;
   }
+
+  @media (max-width: 480px) {
+    margin-bottom: 3rem;
+  }
 `;
 
 export const TextContent = styled.div`

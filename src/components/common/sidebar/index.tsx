@@ -1,9 +1,6 @@
 import React from "react";
-
 import { IoClose } from "react-icons/io5";
-
 import { NavBarItems } from "../../../constant";
-
 import * as S from "./styled";
 
 interface SidebarProps {
@@ -12,6 +9,14 @@ interface SidebarProps {
 }
 
 export const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
+  const handleItemClick = (id: string) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+    onClose();
+  };
+
   return (
     <>
       <S.SidebarWrapper isOpen={isOpen}>
@@ -20,7 +25,9 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
         </S.CloseIcon>
         <S.SidebarItems>
           {NavBarItems.map((item, index) => (
-            <li key={index}>{item}</li>
+            <li key={index} onClick={() => handleItemClick(item.id)}>
+              {item.name}
+            </li>
           ))}
         </S.SidebarItems>
       </S.SidebarWrapper>

@@ -45,7 +45,7 @@ export const MyWorkDetail: React.FC<MyWorkDetail> = ({
           <S.ProjectDate>{date}</S.ProjectDate>
           <p>{descriptionDetail}</p>
         </S.MyWorkDetailHeader>
-        <div style={{ display: "flex", justifyContent: "space-between" }}>
+        <S.MyWorkInfo>
           <Carousel folderName={folderName} carouselImgs={projectImgs} />
           <S.ProjectDetails>
             <S.ContributionBox>
@@ -61,7 +61,7 @@ export const MyWorkDetail: React.FC<MyWorkDetail> = ({
               <S.TechStack>{techStack}</S.TechStack>
             </S.TechStackBox>
           </S.ProjectDetails>
-        </div>
+        </S.MyWorkInfo>
       </S.MyWorkContent>
     </S.MyWorkDetailWrapper>
   );

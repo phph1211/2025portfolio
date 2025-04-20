@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const SectionTitleText = styled.p`
-  font-size: 2rem;
+  margin-top: 10px;
+  font-size: 1.8rem;
   font-weight: bold;
   color: #424242;
 `;

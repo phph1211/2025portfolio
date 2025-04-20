@@ -11,7 +11,7 @@ import {
 
 export const AboutMeSection: React.FC = () => {
   return (
-    <S.SectionWrapper>
+    <S.SectionWrapper id="about">
       <S.ContentWrapper>
         <Profile />
         <S.TextContent>

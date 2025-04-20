@@ -15,12 +15,29 @@ export const MyWorkDetailWrapper = styled.div`
 `;
 
 export const MyWorkContent = styled.div`
-  padding: 0 10rem;
+  padding: 0 10vw;
   text-align: center;
   line-height: 20px;
   gap: 5rem;
   display: flex;
   flex-direction: column;
+
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+    align-items: center;
+
+    padding: auto;
+  }
+`;
+
+export const MyWorkInfo = styled.div`
+  display: flex;
+  justify-content: space-between;
+
+  @media screen and (max-width: 1230px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const TechStackBox = styled.div`
@@ -32,6 +49,7 @@ export const TechStackBox = styled.div`
 
 export const TechStack = styled.p`
   text-align: center;
+  gap: 10px;
 `;
 
 export const ProjectName = styled.p`
@@ -69,6 +87,10 @@ export const ContributionBox = styled.div`
   display: flex;
   flex-direction: column;
   gap: 2rem;
+
+  @media screen and (max-width: 1230px) {
+    margin-top: 8rem;
+  }
 `;
 
 export const MyContribute = styled.div`
@@ -76,5 +98,5 @@ export const MyContribute = styled.div`
   flex-direction: column;
   align-items: flex-start;
   line-height: 25px;
-  font-size: 1vw;
+  font-size: 1rem;
 `;
