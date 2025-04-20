@@ -37,7 +37,7 @@ export const MyWorkDetail: React.FC<MyWorkDetail> = ({
   return (
     <S.MyWorkDetailWrapper>
       <S.GoBackIcon onClick={() => setIsOpen(false)}>
-        <MdOutlineCancel color="#585858" size={50} />
+        <MdOutlineCancel color="#585858" size={"3rem"} />
       </S.GoBackIcon>
       <S.MyWorkContent>
         <S.MyWorkDetailHeader>

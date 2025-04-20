@@ -19,7 +19,7 @@ export const SkillsSection: React.FC = () => {
               key={index}
               description={skillItem.skillDescription[index]}
               skillName={item}
-              skillImg={`./src/assets/images/devLangs/${skillItem.imgPath[index]}.png`}
+              skillImg={`/assets/images/devLangs/${skillItem.imgPath[index]}.png`}
             />
           );
         })}

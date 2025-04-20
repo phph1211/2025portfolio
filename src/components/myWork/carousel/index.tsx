@@ -30,7 +30,7 @@ export const Carousel: React.FC<CarouselProps> = ({
       {carouselImgs.map((img, index) => (
         <S.ProjectImg
           key={index}
-          src={`./src/assets/images/${folderName}/${img}.png`}
+          src={`/assets/images/${folderName}/${img}.png`}
           alt={`프로젝트 이미지`}
         />
       ))}
