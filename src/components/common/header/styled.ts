@@ -9,6 +9,7 @@ export const HeaderWrapper = styled.header`
   position: fixed;
   padding: 40px;
   backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
   z-index: 99;
 `;
 
