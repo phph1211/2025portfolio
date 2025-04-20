@@ -21,7 +21,7 @@ export const MyWorkBox: React.FC<MyWorkBoxProps> = ({
   description,
   onClick,
 }) => {
-  const [isOpen, setIsOpen] = useRecoilState(isModalOpenState);
+  const [, setIsOpen] = useRecoilState(isModalOpenState);
 
   return (
     <S.MyWorkBoxWrapper>

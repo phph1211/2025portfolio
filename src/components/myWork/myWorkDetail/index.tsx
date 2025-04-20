@@ -32,7 +32,7 @@ export const MyWorkDetail: React.FC<MyWorkDetail> = ({
   myContribute,
   folderName,
 }) => {
-  const [isOpen, setIsOpen] = useRecoilState(isModalOpenState);
+  const [, setIsOpen] = useRecoilState(isModalOpenState);
 
   return (
     <S.MyWorkDetailWrapper>

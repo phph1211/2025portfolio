@@ -7,7 +7,7 @@ import { useRecoilState } from "recoil";
 import { isModalOpenState } from "../../../store/atoms";
 
 export const ModalBackground: React.FC = () => {
-  const [isOpen, setIsOpen] = useRecoilState(isModalOpenState);
+  const [, setIsOpen] = useRecoilState(isModalOpenState);
 
   return <S.Background onClick={() => setIsOpen(false)} />;
 };
