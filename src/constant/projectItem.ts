@@ -2,7 +2,7 @@ export const projectItems = [
   {
     projectName: "Hanum",
     tag: "Team",
-    date: "2024. 2. 26.~",
+    date: "2024. 2. 26. ~",
     description:
       "한움은 한세사이버보안고등학교 재학생, 졸업생, 교직원, 학부모, 그리고 학교에 관심 있는 모든 사람을 대상으로 학교 정보를 제공하고, 학교 내 행사 또는 공지사항 정보를 빠르게 확인할 수 있는 앱입니다.",
     descriptionDetail:
@@ -29,7 +29,7 @@ export const projectItems = [
   {
     projectName: "Hanowl",
     tag: "Personal",
-    date: "2024. 3. 16~",
+    date: "2024. 3. 16 ~",
     description:
       "한세사이버보안고등학교 학생회 소개 및 모집을 위한 사이트입니다.",
     descriptionDetail:
@@ -45,7 +45,7 @@ export const projectItems = [
   {
     projectName: "SSR",
     tag: "Team",
-    date: "2024. 4. 1~",
+    date: "2024. 3. 7 ~ 2024. 3. 13",
     description:
       "2024년 시스템보안연구부 신규 부원을 모집하기 위한 웹사이트입니다.",
     descriptionDetail:
@@ -57,7 +57,7 @@ export const projectItems = [
   {
     projectName: "E-sports",
     tag: "Personal",
-    date: "2024. 4. 12~",
+    date: "2024. 10. 31~ 2024. 11. 9",
     description:
       "세명컴퓨터고등학교와 공동으로 개최한 E-sports 대회에서 럭키드로우 이벤트에 참여하기 위한 등록 사이트입니다.",
     descriptionDetail:
