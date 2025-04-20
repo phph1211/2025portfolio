@@ -32,7 +32,7 @@ export const MyWorkContent = styled.div`
 
 export const MyWorkInfo = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 
   @media screen and (max-width: 1230px) {
     flex-direction: column;

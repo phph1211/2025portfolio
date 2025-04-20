@@ -34,7 +34,7 @@ export const projectItems = [
       "한세사이버보안고등학교 학생회 소개 및 모집을 위한 사이트입니다.",
     descriptionDetail:
       "한세사이버보안고등학교 학생회 기능부에서 주도한 팀 프로젝트로, 학생회 소개 및 모집을 위한 사이트입니다.",
-    techStack: ["Next.js", "TypeScript", "Framer Motion"],
+    techStack: ["Next.js, ", "TypeScript, ", "Framer Motion, ", "..."],
     projectImgs: ["hanowl1", "hanowl2", "hanowl3", "hanowl4"],
     contribution: [
       "사이트 유지 보수 및 개발을 담당했습니다.",
@@ -50,7 +50,7 @@ export const projectItems = [
       "2024년 시스템보안연구부 신규 부원을 모집하기 위한 웹사이트입니다.",
     descriptionDetail:
       "시스템보안연구부를 소개하고, 2024년도 신규 부원을 모집하기 위한 웹사이트입니다.",
-    techStack: ["React.js", "TypeScript", "styled-components"],
+    techStack: ["React.js, ", "TypeScript, ", "styled-components, ", "..."],
     projectImgs: ["ssr1", "ssr2", "ssr3", "ssr4"],
     contribution: ["전체 페이지 구성 및 디자인을 담당했습니다."],
   },
@@ -62,7 +62,13 @@ export const projectItems = [
       "세명컴퓨터고등학교와 공동으로 개최한 E-sports 대회에서 럭키드로우 이벤트에 참여하기 위한 등록 사이트입니다.",
     descriptionDetail:
       "세명컴퓨터고등학교와 공동으로 개최한 E-sports 대회에서 럭키드로우 이벤트에 참여하기 위한 등록 사이트입니다.",
-    techStack: ["React.js", "TypeScript", "styled-components", "Pnpm", "..."],
+    techStack: [
+      "React.js, ",
+      "TypeScript, ",
+      "styled-components, ",
+      "Pnpm, ",
+      "...",
+    ],
     projectImgs: ["e-sports1", "e-sports2", "e-sports3", "e-sports4"],
     contribution: [
       "백엔드와 연결하여 유저 등록 기능을 구현했습니다.",
@@ -77,11 +83,17 @@ export const projectItems = [
     description: "2025년 포트폴리오입니다.",
     descriptionDetail:
       "시스템보안연구부를 소개하고, 2024년도 신규 부원을 모집하기 위한 웹사이트입니다.",
-    techStack: ["React.js", "TypeScript", "styled-components", "Recoil", "..."],
+    techStack: [
+      "React.js, ",
+      "TypeScript, ",
+      "styled-components, ",
+      "Recoil, ",
+      "...",
+    ],
     projectImgs: [
       "portfolio1",
       "portfolio2",
-      "portfolio13",
+      "portfolio3",
       "portfolio4",
       "portfolio5",
     ],
