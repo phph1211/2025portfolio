@@ -18,15 +18,19 @@ const settings = {
 
 export interface CarouselProps {
   carouselImgs: string[];
+  folderName: string;
 }
 
-export const Carousel: React.FC<CarouselProps> = ({ carouselImgs }) => {
+export const Carousel: React.FC<CarouselProps> = ({
+  carouselImgs,
+  folderName,
+}) => {
   return (
     <S.StyledSlider {...settings}>
       {carouselImgs.map((img, index) => (
         <S.ProjectImg
           key={index}
-          src={`./src/assets/${img}.png`}
+          src={`./src/assets/images/${folderName}/${img}.png`}
           alt={`프로젝트 이미지`}
         />
       ))}

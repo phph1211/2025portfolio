@@ -1,18 +1,19 @@
 import styled from "styled-components";
 
 export const MyWorkBoxWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   position: relative;
   border-radius: 15px;
   background-color: white;
   width: 100%;
   min-height: 250px;
   padding: 1.5rem 1.5rem 1rem 1.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   gap: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
+  z-index: -1;
 
   &:hover {
     transform: translateY(-4px);

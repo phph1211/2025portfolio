@@ -23,6 +23,14 @@ export const NavBar = styled.ul`
   gap: 1.5vw;
 `;
 
+export const IconBox = styled.span`
+  display: none;
+
+  @media screen and (max-width: 480px) {
+    display: flex;
+  }
+`;
+
 export const NavBarItem = styled.li`
   font-size: 1.2rem;
   font-weight: 700;
@@ -31,5 +39,9 @@ export const NavBarItem = styled.li`
 
   &:hover {
     color: black;
+  }
+
+  @media screen and (max-width: 480px) {
+    display: none;
   }
 `;

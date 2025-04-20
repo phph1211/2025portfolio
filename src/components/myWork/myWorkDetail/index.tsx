@@ -18,8 +18,9 @@ export interface MyWorkDetail {
   descriptionDetail: string;
   date: string;
   projectImgs: string[];
-  techStack: string;
+  techStack: string[];
   myContribute: string[];
+  folderName: string;
 }
 
 export const MyWorkDetail: React.FC<MyWorkDetail> = ({
@@ -29,6 +30,7 @@ export const MyWorkDetail: React.FC<MyWorkDetail> = ({
   projectImgs,
   techStack,
   myContribute,
+  folderName,
 }) => {
   const [isOpen, setIsOpen] = useRecoilState(isModalOpenState);
 
@@ -44,7 +46,7 @@ export const MyWorkDetail: React.FC<MyWorkDetail> = ({
           <p>{descriptionDetail}</p>
         </S.MyWorkDetailHeader>
         <div style={{ display: "flex", justifyContent: "space-between" }}>
-          <Carousel carouselImgs={projectImgs} />
+          <Carousel folderName={folderName} carouselImgs={projectImgs} />
           <S.ProjectDetails>
             <S.ContributionBox>
               <p style={{ fontSize: "1.2rem" }}>기여한 부분</p>

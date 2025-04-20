@@ -7,6 +7,10 @@ export const TextWrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 20px;
+
+  @media screen and (max-width: 480px) {
+    font-size: 1rem;
+  }
 `;
 
 export const AboutText = styled.p``;
